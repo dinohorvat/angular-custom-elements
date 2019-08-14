@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-custom-header',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./custom-header.component.css']
 })
 export class CustomHeaderComponent implements OnInit {
+  @Input() public title: string;
 
   constructor() { }
 
