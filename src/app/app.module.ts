@@ -16,7 +16,7 @@ import {createCustomElement} from '@angular/elements';
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [],
   entryComponents: [CustomButtonComponent, CustomHeaderComponent]
 })
 export class AppModule {
