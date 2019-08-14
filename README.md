@@ -8,4 +8,8 @@ The image represents custom angular elements which are running in a static index
 
 ## Setup
 
-`npm i @angular/elements --save` 
+`npm i` 
+
+Check package.json and run `build:elements`
+
+Open `index.html` in `/root/elements`
